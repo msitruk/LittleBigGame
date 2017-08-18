@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LittleBigGame.dir/main.cpp.o CMakeFiles/LittleBigGame.dir/input.cpp.o  -o LittleBigGame -Wl,-rpath,/usr/local/lib: /usr/local/lib/libsfml-system.so /usr/local/lib/libsfml-window.so /usr/local/lib/libsfml-graphics.so /usr/local/lib/libsfml-network.so /usr/local/lib/libsfml-audio.so 
