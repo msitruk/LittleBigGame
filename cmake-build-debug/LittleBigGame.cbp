@@ -124,6 +124,54 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Character.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Character.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/IObservable.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/IObserver.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/input.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
@@ -136,8 +184,14 @@
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/main.h">
 			<Option target="LittleBigGame"/>
 		</Unit>
+		<Unit filename="/usr/local/include/tmxparser/Tmx.h">
+			<Option target="LittleBigGame"/>
+		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/lib/Findtmxparser.cmake">
+			<Option virtualFolder="CMake Files\lib\"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/lib/FindSFML.cmake">
 			<Option virtualFolder="CMake Files\lib\"/>

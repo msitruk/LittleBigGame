@@ -1,6 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LittleBigGame.dir/main.cpp.o"
   "CMakeFiles/LittleBigGame.dir/input.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o"
   "LittleBigGame.pdb"
   "LittleBigGame"
 )

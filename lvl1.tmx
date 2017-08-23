@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="decor" tilewidth="16" tileheight="16" spacing="1" tilecount="2850">
+  <image source="../../Images/mario-tile-map.png" width="1283" height="654"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Calque de Tile 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt1ElSwlAQBuAHuCErjuUAXs4BvIazhxNtdykq46uIIX6LbxOqu+i/X/UqpbQCAAAA6GBdpLQp/v5//Bevy5TelvW/b2MXu477eI4+Lw29ymZhXrIYQRbHdBmZXlXkOotv86rvLXmdR83FQd1X7CIV3fqsw6bkegQZtXmP+T46vre2urvI6b5jVl3yuolet0V7r7o+27AreRhB3j8eI7enmswXMe9Zza1o2tVhXc4brcvrlHLPuYmfkel+2b9P1a6OkdUp5d7nJubeipy6IbP67dyb5hvqvVX1ybkVbbsa603uo2m+od5bVZ/c7KaQee58Q80+9QwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApuQbbzK6SA==
+  </data>
+ </layer>
+</map>

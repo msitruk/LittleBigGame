@@ -247,6 +247,18 @@ SFML_WINDOW_LIBRARY_STATIC_DEBUG:FILEPATH=SFML_WINDOW_LIBRARY_STATIC_DEBUG-NOTFO
 //Path to a library.
 SFML_WINDOW_LIBRARY_STATIC_RELEASE:FILEPATH=SFML_WINDOW_LIBRARY_STATIC_RELEASE-NOTFOUND
 
+//The tmxparser include directory
+TMXPARSER_INCLUDE_DIR:PATH=/usr/local/include
+
+//The tmxparser library
+TMXPARSER_LIBRARY:FILEPATH=/usr/local/lib/libtmxparser.so
+
+//The directory containing a CMake configuration file for TmxParser.
+TmxParser_DIR:PATH=TmxParser_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for tmxparser.
+tmxparser_DIR:PATH=tmxparser_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
@@ -387,6 +399,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding TMXPARSER
+FIND_PACKAGE_MESSAGE_DETAILS_TMXPARSER:INTERNAL=[/usr/local/lib/libtmxparser.so][/usr/local/include][v()]
 //ADVANCED property for variable: ProcessorCount_cmd_getconf
 ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
@@ -431,4 +445,8 @@ SFML_WINDOW_LIBRARY_DYNAMIC_RELEASE-ADVANCED:INTERNAL=1
 SFML_WINDOW_LIBRARY_STATIC_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SFML_WINDOW_LIBRARY_STATIC_RELEASE
 SFML_WINDOW_LIBRARY_STATIC_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TMXPARSER_INCLUDE_DIR
+TMXPARSER_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TMXPARSER_LIBRARY
+TMXPARSER_LIBRARY-ADVANCED:INTERNAL=1
 

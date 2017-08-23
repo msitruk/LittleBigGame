@@ -10,6 +10,7 @@
 #include <SFML/Graphics.hpp>
 
 #include "input.h"
+#include "Objects/TileMap.hh"
 
 using namespace std;
 using namespace sf;

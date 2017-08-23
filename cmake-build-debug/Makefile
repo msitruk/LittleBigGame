@@ -169,6 +169,195 @@ LittleBigGame/fast:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/build
 .PHONY : LittleBigGame/fast
 
+Objects/AbstractEntity.o: Objects/AbstractEntity.cpp.o
+
+.PHONY : Objects/AbstractEntity.o
+
+# target to build an object file
+Objects/AbstractEntity.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o
+.PHONY : Objects/AbstractEntity.cpp.o
+
+Objects/AbstractEntity.i: Objects/AbstractEntity.cpp.i
+
+.PHONY : Objects/AbstractEntity.i
+
+# target to preprocess a source file
+Objects/AbstractEntity.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.i
+.PHONY : Objects/AbstractEntity.cpp.i
+
+Objects/AbstractEntity.s: Objects/AbstractEntity.cpp.s
+
+.PHONY : Objects/AbstractEntity.s
+
+# target to generate assembly for a file
+Objects/AbstractEntity.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.s
+.PHONY : Objects/AbstractEntity.cpp.s
+
+Objects/Character.o: Objects/Character.cpp.o
+
+.PHONY : Objects/Character.o
+
+# target to build an object file
+Objects/Character.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o
+.PHONY : Objects/Character.cpp.o
+
+Objects/Character.i: Objects/Character.cpp.i
+
+.PHONY : Objects/Character.i
+
+# target to preprocess a source file
+Objects/Character.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.i
+.PHONY : Objects/Character.cpp.i
+
+Objects/Character.s: Objects/Character.cpp.s
+
+.PHONY : Objects/Character.s
+
+# target to generate assembly for a file
+Objects/Character.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.s
+.PHONY : Objects/Character.cpp.s
+
+Objects/MonsterFactory.o: Objects/MonsterFactory.cpp.o
+
+.PHONY : Objects/MonsterFactory.o
+
+# target to build an object file
+Objects/MonsterFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o
+.PHONY : Objects/MonsterFactory.cpp.o
+
+Objects/MonsterFactory.i: Objects/MonsterFactory.cpp.i
+
+.PHONY : Objects/MonsterFactory.i
+
+# target to preprocess a source file
+Objects/MonsterFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.i
+.PHONY : Objects/MonsterFactory.cpp.i
+
+Objects/MonsterFactory.s: Objects/MonsterFactory.cpp.s
+
+.PHONY : Objects/MonsterFactory.s
+
+# target to generate assembly for a file
+Objects/MonsterFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s
+.PHONY : Objects/MonsterFactory.cpp.s
+
+Objects/SprinterMonster.o: Objects/SprinterMonster.cpp.o
+
+.PHONY : Objects/SprinterMonster.o
+
+# target to build an object file
+Objects/SprinterMonster.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o
+.PHONY : Objects/SprinterMonster.cpp.o
+
+Objects/SprinterMonster.i: Objects/SprinterMonster.cpp.i
+
+.PHONY : Objects/SprinterMonster.i
+
+# target to preprocess a source file
+Objects/SprinterMonster.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.i
+.PHONY : Objects/SprinterMonster.cpp.i
+
+Objects/SprinterMonster.s: Objects/SprinterMonster.cpp.s
+
+.PHONY : Objects/SprinterMonster.s
+
+# target to generate assembly for a file
+Objects/SprinterMonster.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.s
+.PHONY : Objects/SprinterMonster.cpp.s
+
+Objects/TileMap.o: Objects/TileMap.cpp.o
+
+.PHONY : Objects/TileMap.o
+
+# target to build an object file
+Objects/TileMap.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o
+.PHONY : Objects/TileMap.cpp.o
+
+Objects/TileMap.i: Objects/TileMap.cpp.i
+
+.PHONY : Objects/TileMap.i
+
+# target to preprocess a source file
+Objects/TileMap.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.i
+.PHONY : Objects/TileMap.cpp.i
+
+Objects/TileMap.s: Objects/TileMap.cpp.s
+
+.PHONY : Objects/TileMap.s
+
+# target to generate assembly for a file
+Objects/TileMap.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.s
+.PHONY : Objects/TileMap.cpp.s
+
+Objects/TimeManager.o: Objects/TimeManager.cpp.o
+
+.PHONY : Objects/TimeManager.o
+
+# target to build an object file
+Objects/TimeManager.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o
+.PHONY : Objects/TimeManager.cpp.o
+
+Objects/TimeManager.i: Objects/TimeManager.cpp.i
+
+.PHONY : Objects/TimeManager.i
+
+# target to preprocess a source file
+Objects/TimeManager.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.i
+.PHONY : Objects/TimeManager.cpp.i
+
+Objects/TimeManager.s: Objects/TimeManager.cpp.s
+
+.PHONY : Objects/TimeManager.s
+
+# target to generate assembly for a file
+Objects/TimeManager.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.s
+.PHONY : Objects/TimeManager.cpp.s
+
+Objects/ZombieMonster.o: Objects/ZombieMonster.cpp.o
+
+.PHONY : Objects/ZombieMonster.o
+
+# target to build an object file
+Objects/ZombieMonster.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o
+.PHONY : Objects/ZombieMonster.cpp.o
+
+Objects/ZombieMonster.i: Objects/ZombieMonster.cpp.i
+
+.PHONY : Objects/ZombieMonster.i
+
+# target to preprocess a source file
+Objects/ZombieMonster.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.i
+.PHONY : Objects/ZombieMonster.cpp.i
+
+Objects/ZombieMonster.s: Objects/ZombieMonster.cpp.s
+
+.PHONY : Objects/ZombieMonster.s
+
+# target to generate assembly for a file
+Objects/ZombieMonster.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.s
+.PHONY : Objects/ZombieMonster.cpp.s
+
 input.o: input.cpp.o
 
 .PHONY : input.o
@@ -236,6 +425,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... LittleBigGame"
+	@echo "... Objects/AbstractEntity.o"
+	@echo "... Objects/AbstractEntity.i"
+	@echo "... Objects/AbstractEntity.s"
+	@echo "... Objects/Character.o"
+	@echo "... Objects/Character.i"
+	@echo "... Objects/Character.s"
+	@echo "... Objects/MonsterFactory.o"
+	@echo "... Objects/MonsterFactory.i"
+	@echo "... Objects/MonsterFactory.s"
+	@echo "... Objects/SprinterMonster.o"
+	@echo "... Objects/SprinterMonster.i"
+	@echo "... Objects/SprinterMonster.s"
+	@echo "... Objects/TileMap.o"
+	@echo "... Objects/TileMap.i"
+	@echo "... Objects/TileMap.s"
+	@echo "... Objects/TimeManager.o"
+	@echo "... Objects/TimeManager.i"
+	@echo "... Objects/TimeManager.s"
+	@echo "... Objects/ZombieMonster.o"
+	@echo "... Objects/ZombieMonster.i"
+	@echo "... Objects/ZombieMonster.s"
 	@echo "... input.o"
 	@echo "... input.i"
 	@echo "... input.s"
