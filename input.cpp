@@ -33,6 +33,7 @@ void Input::setButton(int bouton, bool etat)
             break;
 
         case right:
+            view.moveCamera();
             button.right = etat;
             break;
 
@@ -101,6 +102,8 @@ void Input::getInput(RenderWindow &window)
                         break;
 
                     case Keyboard::Right:
+                        view.moveCamera();
+                        printf("right\n");
                         button.right = true;
                         break;
 

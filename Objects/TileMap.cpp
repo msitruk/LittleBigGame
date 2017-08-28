@@ -4,7 +4,7 @@
 
 #include "TileMap.hh"
 
-TileMap::TileMap(){};
+//TileMap::TileMap(){};
 //Map::~Map(){};
 
 //}
@@ -23,9 +23,6 @@ TileMap::TileMap(const string level) {
 //    window.draw(sprite2);
 //
     parseTmxAndFillVertexArray(level);
-    for (int i = 0; i < m_level.size(); i++){
-        printf("wtf %d\n", m_level[i]);
-    }
 }
 
 //bool TileMap::load(const std::string& tileset, sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height)
@@ -39,58 +36,59 @@ bool TileMap::load(const std::string& tileset, sf::Vector2u tileSize, unsigned i
     m_vertices.setPrimitiveType(sf::Quads);
     m_vertices.resize(width * height * 4);
 
+
+
     // on remplit le tableau de vertex, avec un quad par tuile
-    for (unsigned int i = 0; i < width; ++i)
+    for (unsigned int i = 0; i < width; ++i) {
         for (unsigned int j = 0; j < height; ++j)
-        {
-            // on récupère le numéro de tuile courant
-//            int tileNumber = tiles[i + j * width];
-            int tileNumber = m_level[i + j * width];
-//            int tileNumber = m_level[j*i*width];
+            {
+                // on récupère le numéro de tuile courant
+                //            int tileNumber = tiles[i + j * width];
+                int tileNumber = m_level[i + j * width];
+                //            int tileNumber = m_level[j*i*width];
 
-            // on en déduit sa position dans la texture du tileset
-            int tu = tileNumber % (m_tileset.getSize().x / tileSize.x);
-            int tv = tileNumber / (m_tileset.getSize().x / tileSize.x);
+                // on en déduit sa position dans la texture du tileset
+                int tu = tileNumber % (m_tileset.getSize().x / tileSize.x);
+                int tv = tileNumber / (m_tileset.getSize().x / tileSize.x);
 
-            // on récupère un pointeur vers le quad à définir dans le tableau de vertex
-            sf::Vertex* quad = &m_vertices[(i + j * width) * 4];
+                // on récupère un pointeur vers le quad à définir dans le tableau de vertex
+                sf::Vertex* quad = &m_vertices[(i + j * width) * 4];
 
-            // on définit ses quatre coins
-            quad[0].position = sf::Vector2f(i * tileSize.x, j * tileSize.y);
-            quad[1].position = sf::Vector2f((i + 1) * tileSize.x, j * tileSize.y);
-            quad[2].position = sf::Vector2f((i + 1) * tileSize.x, (j + 1) * tileSize.y);
-            quad[3].position = sf::Vector2f(i * tileSize.x, (j + 1) * tileSize.y);
+                // on définit ses quatre coins
+                quad[0].position = sf::Vector2f(i * tileSize.x, j * tileSize.y);
+                quad[1].position = sf::Vector2f((i + 1) * tileSize.x, j * tileSize.y);
+                quad[2].position = sf::Vector2f((i + 1) * tileSize.x, (j + 1) * tileSize.y);
+                quad[3].position = sf::Vector2f(i * tileSize.x, (j + 1) * tileSize.y);
 
-            // on définit ses quatre coordonnées de texture
-            quad[0].texCoords = sf::Vector2f(tu * tileSize.x, tv * tileSize.y);
-            quad[1].texCoords = sf::Vector2f((tu + 1) * tileSize.x, tv * tileSize.y);
-            quad[2].texCoords = sf::Vector2f((tu + 1) * tileSize.x, (tv + 1) * tileSize.y);
-            quad[3].texCoords = sf::Vector2f(tu * tileSize.x, (tv + 1) * tileSize.y);
+                int gap = 1;
+                int tNumber = tileNumber;
 
-//            float pixelGap = 1.f;
-//            float tileWidth = 16.f;
-//            float tileHeight = 16.f;
-//
-//
-////            void makeTile(int posX, int posY) //position of tile in tile set, eg (4, 7)
+                // BE CAREFUL : PositionZero mean top left corner/vertex of quad
 
-//            position[0] = {(posX * pixelGap) + (posX * tileWidth), (posY * pixelGap) + (posY * tileHeight)};
-//            position[1] = {position[0].x + tileWidth, position[0].y};
-//            position[2] = {position[0].x + tileWidth, position[0].y + tileHeight};
-//            position[3] = {position[0].x, position[2].y};
-//
-//            quad[0] = sf::Vector2f((tu * pixelGap) + (tu * tileWidth), (tv * pixelGap) + (tv * tileHeight));
-//            quad[1] = sf::Vector2f(quad[0].position.x + tileWidth, quad[0].position.y);
-//            quad[2] = sf::Vector2f(quad[0].position.x + tileWidth, quad[0].position.y + tileHeight);
-//            quad[3] = sf::Vector2f(quad[0].position.x, quad[2].position.y);
-//
-//            quad[0].texCoords = sf::Vector2f((tu * tileSize.x) - pixelGap, (tv * tileSize.y) - pixelGap);
-//            quad[1].texCoords = sf::Vector2f(((tu + 1) * tileSize.x) - pixelGap, (tv * tileSize.y) - pixelGap);
-//            quad[2].texCoords = sf::Vector2f(((tu + 1) * tileSize.x) - pixelGap, ((tv + 1) * tileSize.y) - pixelGap);
-//            quad[3].texCoords = sf::Vector2f((tu * tileSize.x) - pixelGap, ((tv + 1) * tileSize.y) - pixelGap);
+                //PositionZeroX witheout gap
+//                int positionZeroXnoGap = (tNumber - (width * (tNumber % width))) * tileSize.x;
+                int positionZeroXnoGap = (tNumber - (75 * (tNumber / 75))) * tileSize.x;
 
-        }
+                //PositionZeroX with gap
+                int positionZeroX = positionZeroXnoGap + (positionZeroXnoGap / tileSize.x);
 
+                //PositionZeroY no Gap
+//                int PositionZeroYnoGap = (tNumber % width) * tileSize.y;
+                int PositionZeroYnoGap = (tNumber / 75) * tileSize.y;
+
+                //PositionZeroY with gap
+//                int PositionZeroY = PositionZeroYnoGap + (gap * (tNumber % width));
+                int PositionZeroY = PositionZeroYnoGap + (gap * (tNumber / 75));
+
+                sf::Vector2f positionZero = sf::Vector2f(positionZeroX, PositionZeroY);
+
+                quad[0].texCoords = positionZero;
+                quad[1].texCoords = sf::Vector2f(positionZero.x + tileSize.x, positionZero.y);
+                quad[2].texCoords = sf::Vector2f(positionZero.x + tileSize.x, positionZero.y + tileSize.y);
+                quad[3].texCoords = sf::Vector2f(positionZero.x, positionZero.y + tileSize.y);
+
+            }
+    }
     return true;
 }
 
@@ -237,6 +235,8 @@ void TileMap::parseTmxAndFillVertexArray(const string level){
     }
 
     // Iterate through the tile layers.
+
+
     for (int i = 0; i < map->GetNumTileLayers(); ++i)
     {
         printf("                                    \n");
@@ -260,6 +260,7 @@ void TileMap::parseTmxAndFillVertexArray(const string level){
 
                     this->m_level.push_back(tileLayer->GetTileId(x, y));
 //                    this->m_level.push_back(tileLayer->GetTileGid(x, y));
+//                    this->m_level.push_back(tileLayer->GetTileTilesetIndex(x,y));
 //                    this->m_level.push_back(4);
                     // Get the tile's id and gid.
                     printf("%03d(%03d)", tileLayer->GetTileId(x, y), tileLayer->GetTileGid(x, y));

@@ -11,6 +11,7 @@
 
 #include "input.h"
 #include "Objects/TileMap.hh"
+#include "Objects/Player.hh"
 
 using namespace std;
 using namespace sf;

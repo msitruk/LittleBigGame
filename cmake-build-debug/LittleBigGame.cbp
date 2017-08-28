@@ -130,6 +130,12 @@
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Character.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
@@ -146,6 +152,12 @@
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Player.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Player.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp">

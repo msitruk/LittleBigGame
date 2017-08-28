@@ -12,6 +12,14 @@ AbstractEntity.hh
 
 /home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh
 
+/home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp
+Camera.hh
+/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
+
+/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
+SFML/Graphics/View.hpp
+-
+
 /home/maxime/GitHub/LittleBigGame/Objects/Character.cpp
 Character.hh
 /home/maxime/GitHub/LittleBigGame/Objects/Character.hh
@@ -44,6 +52,16 @@ iostream
 
 /home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh
 iostream
+-
+Character.hh
+/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+
+/home/maxime/GitHub/LittleBigGame/Objects/Player.cpp
+Player.hh
+/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
+
+/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
+SFML/Graphics.hpp
 -
 Character.hh
 /home/maxime/GitHub/LittleBigGame/Objects/Character.hh
@@ -111,6 +129,8 @@ input.h
 /home/maxime/GitHub/LittleBigGame/input.h
 SFML/Graphics.hpp
 -
+Objects/Camera.hh
+/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
 
 /home/maxime/GitHub/LittleBigGame/main.cpp
 main.h
@@ -127,6 +147,8 @@ input.h
 /home/maxime/GitHub/LittleBigGame/input.h
 Objects/TileMap.hh
 /home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh
+Objects/Player.hh
+/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

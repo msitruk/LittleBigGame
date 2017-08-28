@@ -196,6 +196,33 @@ Objects/AbstractEntity.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.s
 .PHONY : Objects/AbstractEntity.cpp.s
 
+Objects/Camera.o: Objects/Camera.cpp.o
+
+.PHONY : Objects/Camera.o
+
+# target to build an object file
+Objects/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o
+.PHONY : Objects/Camera.cpp.o
+
+Objects/Camera.i: Objects/Camera.cpp.i
+
+.PHONY : Objects/Camera.i
+
+# target to preprocess a source file
+Objects/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.i
+.PHONY : Objects/Camera.cpp.i
+
+Objects/Camera.s: Objects/Camera.cpp.s
+
+.PHONY : Objects/Camera.s
+
+# target to generate assembly for a file
+Objects/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.s
+.PHONY : Objects/Camera.cpp.s
+
 Objects/Character.o: Objects/Character.cpp.o
 
 .PHONY : Objects/Character.o
@@ -249,6 +276,33 @@ Objects/MonsterFactory.s: Objects/MonsterFactory.cpp.s
 Objects/MonsterFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s
 .PHONY : Objects/MonsterFactory.cpp.s
+
+Objects/Player.o: Objects/Player.cpp.o
+
+.PHONY : Objects/Player.o
+
+# target to build an object file
+Objects/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.o
+.PHONY : Objects/Player.cpp.o
+
+Objects/Player.i: Objects/Player.cpp.i
+
+.PHONY : Objects/Player.i
+
+# target to preprocess a source file
+Objects/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.i
+.PHONY : Objects/Player.cpp.i
+
+Objects/Player.s: Objects/Player.cpp.s
+
+.PHONY : Objects/Player.s
+
+# target to generate assembly for a file
+Objects/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.s
+.PHONY : Objects/Player.cpp.s
 
 Objects/SprinterMonster.o: Objects/SprinterMonster.cpp.o
 
@@ -428,12 +482,18 @@ help:
 	@echo "... Objects/AbstractEntity.o"
 	@echo "... Objects/AbstractEntity.i"
 	@echo "... Objects/AbstractEntity.s"
+	@echo "... Objects/Camera.o"
+	@echo "... Objects/Camera.i"
+	@echo "... Objects/Camera.s"
 	@echo "... Objects/Character.o"
 	@echo "... Objects/Character.i"
 	@echo "... Objects/Character.s"
 	@echo "... Objects/MonsterFactory.o"
 	@echo "... Objects/MonsterFactory.i"
 	@echo "... Objects/MonsterFactory.s"
+	@echo "... Objects/Player.o"
+	@echo "... Objects/Player.i"
+	@echo "... Objects/Player.s"
 	@echo "... Objects/SprinterMonster.o"
 	@echo "... Objects/SprinterMonster.i"
 	@echo "... Objects/SprinterMonster.s"

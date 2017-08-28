@@ -7,6 +7,7 @@
 
 
 #include <SFML/Graphics.hpp>
+#include "Objects/Camera.hh"
 
 
 class Input
@@ -36,6 +37,7 @@ private:
 //Variables de la classe en accès privé
     sf::Event event;
     Button button;
+    Camera view;
 
 //Enum pour les boutons
     enum{ up, down, right, left, attack, jump, enter };

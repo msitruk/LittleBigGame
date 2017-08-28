@@ -13,7 +13,10 @@ SET(Objects
         "Objects/IObservable.hh"
         "Objects/MonsterFactory.cpp" "Objects/MonsterFactory.hh"
         "Objects/ZombieMonster.cpp" "Objects/ZombieMonster.hh"
-        "Objects/SprinterMonster.cpp" "Objects/SprinterMonster.hh" Objects/TileMap.cpp Objects/TileMap.hh)
+        "Objects/SprinterMonster.cpp" "Objects/SprinterMonster.hh"
+        "Objects/TileMap.cpp" "Objects/TileMap.hh"
+        "Objects/Camera.cpp" "Objects/Camera.hh"
+        "Objects/Player.cpp" "Objects/Player.hh")
 
 
 set(SOURCE_FILES main.cpp main.h input.cpp input.h /usr/local/include/tmxparser/Tmx.h ${Objects})

@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Objects/Character.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Objects/Player.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o"
