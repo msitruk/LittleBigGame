@@ -277,32 +277,59 @@ Objects/MonsterFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s
 .PHONY : Objects/MonsterFactory.cpp.s
 
-Objects/Player.o: Objects/Player.cpp.o
+Objects/PlayerAnimation.o: Objects/PlayerAnimation.cpp.o
 
-.PHONY : Objects/Player.o
+.PHONY : Objects/PlayerAnimation.o
 
 # target to build an object file
-Objects/Player.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.o
-.PHONY : Objects/Player.cpp.o
+Objects/PlayerAnimation.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o
+.PHONY : Objects/PlayerAnimation.cpp.o
 
-Objects/Player.i: Objects/Player.cpp.i
+Objects/PlayerAnimation.i: Objects/PlayerAnimation.cpp.i
 
-.PHONY : Objects/Player.i
+.PHONY : Objects/PlayerAnimation.i
 
 # target to preprocess a source file
-Objects/Player.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.i
-.PHONY : Objects/Player.cpp.i
+Objects/PlayerAnimation.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.i
+.PHONY : Objects/PlayerAnimation.cpp.i
 
-Objects/Player.s: Objects/Player.cpp.s
+Objects/PlayerAnimation.s: Objects/PlayerAnimation.cpp.s
 
-.PHONY : Objects/Player.s
+.PHONY : Objects/PlayerAnimation.s
 
 # target to generate assembly for a file
-Objects/Player.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.s
-.PHONY : Objects/Player.cpp.s
+Objects/PlayerAnimation.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.s
+.PHONY : Objects/PlayerAnimation.cpp.s
+
+Objects/PlayerSprite.o: Objects/PlayerSprite.cpp.o
+
+.PHONY : Objects/PlayerSprite.o
+
+# target to build an object file
+Objects/PlayerSprite.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o
+.PHONY : Objects/PlayerSprite.cpp.o
+
+Objects/PlayerSprite.i: Objects/PlayerSprite.cpp.i
+
+.PHONY : Objects/PlayerSprite.i
+
+# target to preprocess a source file
+Objects/PlayerSprite.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.i
+.PHONY : Objects/PlayerSprite.cpp.i
+
+Objects/PlayerSprite.s: Objects/PlayerSprite.cpp.s
+
+.PHONY : Objects/PlayerSprite.s
+
+# target to generate assembly for a file
+Objects/PlayerSprite.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.s
+.PHONY : Objects/PlayerSprite.cpp.s
 
 Objects/SprinterMonster.o: Objects/SprinterMonster.cpp.o
 
@@ -491,9 +518,12 @@ help:
 	@echo "... Objects/MonsterFactory.o"
 	@echo "... Objects/MonsterFactory.i"
 	@echo "... Objects/MonsterFactory.s"
-	@echo "... Objects/Player.o"
-	@echo "... Objects/Player.i"
-	@echo "... Objects/Player.s"
+	@echo "... Objects/PlayerAnimation.o"
+	@echo "... Objects/PlayerAnimation.i"
+	@echo "... Objects/PlayerAnimation.s"
+	@echo "... Objects/PlayerSprite.o"
+	@echo "... Objects/PlayerSprite.i"
+	@echo "... Objects/PlayerSprite.s"
 	@echo "... Objects/SprinterMonster.o"
 	@echo "... Objects/SprinterMonster.i"
 	@echo "... Objects/SprinterMonster.s"

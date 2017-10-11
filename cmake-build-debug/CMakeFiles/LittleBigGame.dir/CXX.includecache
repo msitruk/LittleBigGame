@@ -56,15 +56,35 @@ iostream
 Character.hh
 /home/maxime/GitHub/LittleBigGame/Objects/Character.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/Player.cpp
-Player.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp
+PlayerAnimation.hh
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
-SFML/Graphics.hpp
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
+vector
 -
-Character.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+SFML/Graphics/Rect.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp
+PlayerSprite.hh
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
+
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
+SFML/Graphics/RenderTarget.hpp
+-
+SFML/System/Time.hpp
+-
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics/Transformable.hpp
+-
+SFML/System/Vector2.hpp
+-
+PlayerAnimation.hh
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
 
 /home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp
 SprinterMonster.hh
@@ -141,14 +161,18 @@ cstdlib
 -
 iostream
 -
+chrono
+-
+thread
+-
 SFML/Graphics.hpp
 -
 input.h
 /home/maxime/GitHub/LittleBigGame/input.h
 Objects/TileMap.hh
 /home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh
-Objects/Player.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Player.hh
+Objects/PlayerSprite.hh
+/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

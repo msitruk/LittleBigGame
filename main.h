@@ -7,17 +7,20 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <chrono>
+#include <thread>
 #include <SFML/Graphics.hpp>
 
 #include "input.h"
 #include "Objects/TileMap.hh"
-#include "Objects/Player.hh"
+#include "Objects/PlayerSprite.hh"
 
 using namespace std;
 using namespace sf;
 
 // Taille de la fenêtre : 800x480 pixels
-const int SCREEN_WIDTH = 800;
-const int SCREEN_HEIGHT = 480;
+sf::Vector2i screenDimensions(800,480);
+//const int SCREEN_WIDTH = 800;
+//const int SCREEN_HEIGHT = 480;
 
 #endif //LITTLEBIGGAME_MAIN_H

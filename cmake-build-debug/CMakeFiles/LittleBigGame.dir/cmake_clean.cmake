@@ -9,7 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o"
   "CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o"
   "CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o"
-  "CMakeFiles/LittleBigGame.dir/Objects/Player.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o"
+  "CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o"
   "LittleBigGame.pdb"
   "LittleBigGame"
 )

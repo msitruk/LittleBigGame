@@ -16,7 +16,7 @@ SET(Objects
         "Objects/SprinterMonster.cpp" "Objects/SprinterMonster.hh"
         "Objects/TileMap.cpp" "Objects/TileMap.hh"
         "Objects/Camera.cpp" "Objects/Camera.hh"
-        "Objects/Player.cpp" "Objects/Player.hh")
+        "Objects/PlayerSprite.cpp" "Objects/PlayerSprite.hh" Objects/PlayerAnimation.cpp Objects/PlayerAnimation.hh)
 
 
 set(SOURCE_FILES main.cpp main.h input.cpp input.h /usr/local/include/tmxparser/Tmx.h ${Objects})

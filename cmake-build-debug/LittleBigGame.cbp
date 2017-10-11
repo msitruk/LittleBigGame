@@ -154,10 +154,16 @@
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Player.cpp">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/Player.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp">
