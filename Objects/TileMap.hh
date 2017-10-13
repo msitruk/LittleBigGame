@@ -20,14 +20,17 @@ public:
     TileMap(string level);
 //    bool load(const std::string& tileset, sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height);
     bool load(const std::string& tileset, sf::Vector2u tileSize, unsigned int width, unsigned int height);
-private:
+    vector<sf::Vector2f> m_solidTilesPostions;
 
+private:
     vector<int> m_level;
+    vector<int> m_solidTileIdList;
 
     sf::VertexArray m_vertices;
     sf::Texture m_tileset;
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
     void parseTmxAndFillVertexArray(const string level);
+    sf::Vector2f GetTilePositionFromId(int id);
 
 };
 

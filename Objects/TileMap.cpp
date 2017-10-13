@@ -3,6 +3,7 @@
 //
 
 #include "TileMap.hh"
+#include <algorithm>
 
 //TileMap::TileMap(){};
 //Map::~Map(){};
@@ -60,6 +61,17 @@ bool TileMap::load(const std::string& tileset, sf::Vector2u tileSize, unsigned i
                 quad[2].position = sf::Vector2f((i + 1) * tileSize.x, (j + 1) * tileSize.y);
                 quad[3].position = sf::Vector2f(i * tileSize.x, (j + 1) * tileSize.y);
 
+
+                //IF tileNumber is in m_solidTileIdList we push position in m_solidTilesPostions exept if position already here
+                bool check = std::find(m_solidTileIdList.begin(), m_solidTileIdList.end(), tileNumber) != m_solidTileIdList.end();
+//                bool check2 = std::find(m_solidTilesPostions.begin(), m_solidTilesPostions.end(), positionZero) != m_solidTilesPostions.end();
+            if (check){// && !check2){
+                printf("TileNumber : %d \n", tileNumber);
+                printf("Solid Tile Position 0 X-Y : %f - %f \n", quad[0].position.x, quad[0].position.y);
+                this->m_solidTilesPostions.push_back(quad[0].position);
+            }
+
+
                 int gap = 1;
                 int tNumber = tileNumber;
 
@@ -86,6 +98,15 @@ bool TileMap::load(const std::string& tileset, sf::Vector2u tileSize, unsigned i
                 quad[1].texCoords = sf::Vector2f(positionZero.x + tileSize.x, positionZero.y);
                 quad[2].texCoords = sf::Vector2f(positionZero.x + tileSize.x, positionZero.y + tileSize.y);
                 quad[3].texCoords = sf::Vector2f(positionZero.x, positionZero.y + tileSize.y);
+
+//                //IF tileNumber is in m_solidTileIdList we push position in m_solidTilesPostions exept if position already here
+//                bool check = std::find(m_solidTileIdList.begin(), m_solidTileIdList.end(), tileNumber) != m_solidTileIdList.end();
+////                bool check2 = std::find(m_solidTilesPostions.begin(), m_solidTilesPostions.end(), positionZero) != m_solidTilesPostions.end();
+//                if (check){// && !check2){
+//                    printf("TileNumber : %d \n", tileNumber);
+//                    printf("Solid Tile Position 0 X-Y : %f - %f \n", positionZero.x, positionZero.y);
+//                    this->m_solidTilesPostions.push_back(positionZero);
+//                }
 
             }
     }
@@ -244,6 +265,18 @@ void TileMap::parseTmxAndFillVertexArray(const string level){
         printf("Layer : %02d/%s \n", i, map->GetTileLayer(i)->GetName().c_str());
         printf("====================================\n");
 
+
+//        printf("%d \n", map->GetTileset(0)->GetTile(0)->GetProperties().GetBoolProperty("solid"));
+
+        std::vector< Tmx::Tile *> solidTiles = map->GetTileset(0)->GetTiles();
+//        for (int i = 0; i < solidTiles.size(); i++){
+//            if(solidTiles[i]->GetProperties().GetBoolProperty("solid")){
+//                printf("%d is solid :D \n",  solidTiles[i]->GetId());
+//            }
+//        }
+
+
+
         // Get a layer.
         const Tmx::TileLayer *tileLayer = map->GetTileLayer(i);
 
@@ -257,49 +290,31 @@ void TileMap::parseTmxAndFillVertexArray(const string level){
                 }
                 else
                 {
-
                     this->m_level.push_back(tileLayer->GetTileId(x, y));
-//                    this->m_level.push_back(tileLayer->GetTileGid(x, y));
-//                    this->m_level.push_back(tileLayer->GetTileTilesetIndex(x,y));
-//                    this->m_level.push_back(4);
-                    // Get the tile's id and gid.
-                    printf("%03d(%03d)", tileLayer->GetTileId(x, y), tileLayer->GetTileGid(x, y));
+                    for (int i = 0; i < solidTiles.size(); i++){
+                        if(solidTiles[i]->GetProperties().GetBoolProperty("solid")){
+                            if (solidTiles[i]->GetId() == tileLayer->GetTileId(x, y)){
+                                bool check = std::find(m_solidTileIdList.begin(), m_solidTileIdList.end(), tileLayer->GetTileId(x, y)) != m_solidTileIdList.end();
+                                if (!check){
+                                    m_solidTileIdList.push_back(tileLayer->GetTileId(x, y));
+//                                    sf::Vector2f tilePosition = this->GetTilePositionFromId(tileLayer->GetTileId(x, y));
+//                                    this->m_solidTilesPostions.push_back(tilePosition);
+                                }
+                            }
+                        }
+                    }
 
-                    // Find a tileset for that id.
-                    //const Tmx::Tileset *tileset = map->FindTileset(layer->GetTileId(x, y));
-                    if (tileLayer->IsTileFlippedHorizontally(x, y))
-                    {
-                        printf("h");
-                    }
-                    else
-                    {
-                        printf(" ");
-                    }
-                    if (tileLayer->IsTileFlippedVertically(x, y))
-                    {
-                        printf("v");
-                    }
-                    else
-                    {
-                        printf(" ");
-                    }
-                    if (tileLayer->IsTileFlippedDiagonally(x, y))
-                    {
-                        printf("d ");
-                    }
-                    else
-                    {
-                        printf("  ");
-                    }
                 }
             }
-
-            printf("\n");
         }
     }
 
 
     delete map;
     printf("error code: Fin de parseTmxAndFillVertexArray\n");
+}
+
+sf::Vector2f TileMap::GetTilePositionFromId(int id){
+return sf::Vector2f();
 }
 

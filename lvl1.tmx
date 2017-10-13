@@ -47,10 +47,30 @@
     <property name="solid" value="true"/>
    </properties>
   </tile>
+  <tile id="2481">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2482">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2556">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2557">
+   <properties>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="Calque de Tile 1" width="100" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt1ElSwlAQBuAHuCErjuUAXs4BvIazhxNtdykq46uIIX6LbxOqu+i/X/UqpbQCAAAA6GBdpLQp/v5//Bevy5TelvW/b2MXu477eI4+Lw29ymZhXrIYQRbHdBmZXlXkOotv86rvLXmdR83FQd1X7CIV3fqsw6bkegQZtXmP+T46vre2urvI6b5jVl3yuolet0V7r7o+27AreRhB3j8eI7enmswXMe9Zza1o2tVhXc4brcvrlHLPuYmfkel+2b9P1a6OkdUp5d7nJubeipy6IbP67dyb5hvqvVX1ybkVbbsa603uo2m+od5bVZ/c7KaQee58Q80+9QwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApuQbbzK6SA==
+   eJzt1EtOwzAQAFADq+7SewHXA64B5yvCm0iWNYmdxCVCvMXbTP2ZzEw9pZQmAAAAgOza8fu1Yx1jerFU7/q3LX2L1tbx6Pz/0vPemvf2oxXrqftf6kdPnmu51/u21DzasxZv5fxb/RjVy89LSl+Xvn6Ua+d4a3903rynjD1kj4WnjTU8+3+w9kZuufeW6/Ld2Y9y7RyPYq1azXvK2HP2Ung9UOsjdd+zd0Q+0TzW5/fObM+6pTXznW/Ze+Fj5zdPqf3to2q7V1SLaB7rnJZmttazbu2+re9Ba+5G9+JIn6I7olq05nFpZqM795515L2+h1ZNR7yH96hFPTdn1/Gsfp2dT53b2TkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY/wAlWKU1A==
   </data>
  </layer>
 </map>
