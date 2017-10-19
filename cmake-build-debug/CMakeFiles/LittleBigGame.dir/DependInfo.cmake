@@ -6,15 +6,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/maxime/GitHub/LittleBigGame/Controller/GameEngine.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/Camera.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/Character.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Camera.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Character.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/MonsterFactory.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/SprinterMonster.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/TimeManager.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.o"
+  "/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/ZombieMonster.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o"
-  "/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o"
   "/home/maxime/GitHub/LittleBigGame/main.cpp" "/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles/LittleBigGame.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

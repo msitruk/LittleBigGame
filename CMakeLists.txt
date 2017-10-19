@@ -7,15 +7,15 @@ set(CMAKE_CXX_STANDARD 11)
 
 SET(Models
         "Models/AbstractEntity.cpp" "Models/AbstractEntity.hh"
-        "Models/Character.cpp" "Models/Character.hh"
-        "Models/TimeManager.cpp" "Models/TimeManager.hh"
-        "Models/IObserver.hh"
-        "Models/IObservable.hh"
-        "Models/MonsterFactory.cpp" "Models/MonsterFactory.hh"
-        "Models/ZombieMonster.cpp" "Models/ZombieMonster.hh"
-        "Models/SprinterMonster.cpp" "Models/SprinterMonster.hh"
+        "Models/NotUseAtThisPoint/Character.cpp" "Models/NotUseAtThisPoint/Character.hh"
+        "Models/NotUseAtThisPoint/TimeManager.cpp" "Models/NotUseAtThisPoint/TimeManager.hh"
+        "Models/NotUseAtThisPoint/IObserver.hh"
+        "Models/NotUseAtThisPoint/IObservable.hh"
+        "Models/NotUseAtThisPoint/MonsterFactory.cpp" "Models/NotUseAtThisPoint/MonsterFactory.hh"
+        "Models/NotUseAtThisPoint/ZombieMonster.cpp" "Models/NotUseAtThisPoint/ZombieMonster.hh"
+        "Models/NotUseAtThisPoint/SprinterMonster.cpp" "Models/NotUseAtThisPoint/SprinterMonster.hh"
         "Models/TileMap.cpp" "Models/TileMap.hh"
-        "Models/Camera.cpp" "Models/Camera.hh"
+        "Models/NotUseAtThisPoint/Camera.cpp" "Models/NotUseAtThisPoint/Camera.hh"
         "Models/PlayerSprite.cpp" "Models/PlayerSprite.hh" Models/PlayerAnimation.cpp Models/PlayerAnimation.hh)
 
 SET(Conntrollers Controller/GameEngine.cpp Controller/GameEngine.hh)

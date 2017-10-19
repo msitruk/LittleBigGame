@@ -136,28 +136,46 @@
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/Camera.cpp">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Camera.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/Camera.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Camera.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/Character.cpp">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Character.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/Character.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/Character.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/IObservable.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/IObservable.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/IObserver.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/IObserver.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/MonsterFactory.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.hh">
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/MonsterFactory.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/SprinterMonster.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/SprinterMonster.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/TimeManager.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/TimeManager.hh">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/ZombieMonster.cpp">
+			<Option target="LittleBigGame"/>
+		</Unit>
+		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/NotUseAtThisPoint/ZombieMonster.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp">
@@ -172,28 +190,10 @@
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp">
-			<Option target="LittleBigGame"/>
-		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.hh">
-			<Option target="LittleBigGame"/>
-		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp">
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/TileMap.hh">
-			<Option target="LittleBigGame"/>
-		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp">
-			<Option target="LittleBigGame"/>
-		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh">
-			<Option target="LittleBigGame"/>
-		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp">
-			<Option target="LittleBigGame"/>
-		</Unit>
-		<Unit filename="/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.hh">
 			<Option target="LittleBigGame"/>
 		</Unit>
 		<Unit filename="/home/maxime/GitHub/LittleBigGame/main.cpp">

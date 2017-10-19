@@ -11,6 +11,7 @@
 #include <chrono>
 #include <thread>
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 
 #include "../Models/TileMap.hh"
 #include "../Models/PlayerSprite.hh"

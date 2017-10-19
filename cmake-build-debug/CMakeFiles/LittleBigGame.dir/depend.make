@@ -7,6 +7,23 @@ CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: ../Models/AbstractEnti
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: ../Models/PlayerAnimation.hh
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: ../Models/PlayerSprite.hh
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: ../Models/TileMap.hh
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/AlResource.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/Export.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/InputSoundFile.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/Listener.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/Music.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/OutputSoundFile.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/Sound.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundBuffer.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundFileFactory.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundFileFactory.inl
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundFileReader.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundFileWriter.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundRecorder.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundSource.hpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Audio/SoundStream.hpp
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Graphics.hpp
 CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/SFML/Graphics/BlendMode.hpp
@@ -105,32 +122,51 @@ CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: /usr/local/include/tmx
 CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o: ../Models/AbstractEntity.cpp
 CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o: ../Models/AbstractEntity.hh
 
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: ../Models/Camera.cpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: ../Models/Camera.hh
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Config.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Graphics/Export.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Graphics/Rect.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Graphics/Rect.inl
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Graphics/Transform.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/Graphics/View.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/System/Vector2.hpp
-CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: /usr/local/include/SFML/System/Vector2.inl
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: ../Models/NotUseAtThisPoint/Camera.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: ../Models/NotUseAtThisPoint/Camera.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Config.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Graphics/Export.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Graphics/Rect.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Graphics/Rect.inl
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Graphics/Transform.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/Graphics/View.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/System/Vector2.hpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o: /usr/local/include/SFML/System/Vector2.inl
 
-CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/AbstractEntity.hh
-CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/Character.cpp
-CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/Character.hh
-CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/IObservable.hh
-CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/IObserver.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o: ../Models/AbstractEntity.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o: ../Models/NotUseAtThisPoint/Character.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o: ../Models/NotUseAtThisPoint/Character.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o: ../Models/NotUseAtThisPoint/IObservable.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o: ../Models/NotUseAtThisPoint/IObserver.hh
 
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/AbstractEntity.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/Character.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/IObservable.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/IObserver.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/MonsterFactory.cpp
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/MonsterFactory.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/SprinterMonster.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/TimeManager.hh
-CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/ZombieMonster.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/AbstractEntity.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/Character.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/IObservable.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/IObserver.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/MonsterFactory.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/MonsterFactory.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/SprinterMonster.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/TimeManager.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o: ../Models/NotUseAtThisPoint/ZombieMonster.hh
+
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/AbstractEntity.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/Character.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/IObservable.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/IObserver.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/SprinterMonster.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/SprinterMonster.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o: ../Models/NotUseAtThisPoint/TimeManager.hh
+
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.o: ../Models/NotUseAtThisPoint/TimeManager.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.o: ../Models/NotUseAtThisPoint/TimeManager.hh
+
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/AbstractEntity.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/Character.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/IObservable.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/IObserver.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/TimeManager.hh
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/ZombieMonster.cpp
+CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o: ../Models/NotUseAtThisPoint/ZombieMonster.hh
 
 CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o: ../Models/PlayerAnimation.cpp
 CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o: ../Models/PlayerAnimation.hh
@@ -174,14 +210,6 @@ CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: /usr/local/include/SFML/
 CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: /usr/local/include/SFML/System/Vector2.inl
 CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: /usr/local/include/SFML/Window/Export.hpp
 CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: /usr/local/include/SFML/Window/GlResource.hpp
-
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/AbstractEntity.hh
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/Character.hh
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/IObservable.hh
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/IObserver.hh
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/SprinterMonster.cpp
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/SprinterMonster.hh
-CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/TimeManager.hh
 
 CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: ../Models/AbstractEntity.hh
 CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: ../Models/TileMap.cpp
@@ -281,17 +309,6 @@ CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: /usr/local/include/tmxparser/
 CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: /usr/local/include/tmxparser/TmxTileset.h
 CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: /usr/local/include/tmxparser/TmxUtil.h
 
-CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o: ../Models/TimeManager.cpp
-CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o: ../Models/TimeManager.hh
-
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/AbstractEntity.hh
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/Character.hh
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/IObservable.hh
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/IObserver.hh
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/TimeManager.hh
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/ZombieMonster.cpp
-CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/ZombieMonster.hh
-
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../Controller/GameEngine.hh
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../Models/AbstractEntity.hh
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../Models/PlayerAnimation.hh
@@ -299,6 +316,23 @@ CMakeFiles/LittleBigGame.dir/main.cpp.o: ../Models/PlayerSprite.hh
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../Models/TileMap.hh
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../main.cpp
 CMakeFiles/LittleBigGame.dir/main.cpp.o: ../main.h
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/AlResource.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/Export.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/InputSoundFile.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/Listener.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/Music.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/OutputSoundFile.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/Sound.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundBuffer.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundFileFactory.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundFileFactory.inl
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundFileReader.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundFileWriter.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundRecorder.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundSource.hpp
+CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Audio/SoundStream.hpp
 CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Config.hpp
 CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Graphics.hpp
 CMakeFiles/LittleBigGame.dir/main.cpp.o: /usr/local/include/SFML/Graphics/BlendMode.hpp

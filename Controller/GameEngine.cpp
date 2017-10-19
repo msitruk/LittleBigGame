@@ -42,7 +42,7 @@ bool checkIfNextTileIsNotSolid(PlayerSprite playerSprite, TileMap tileMap, float
 
     sf::Vector2f expectedPosition = playerSprite.getPosition();
     if(type == "right"){
-        printf("Player X-Y position :%f - %f \n", playerSprite.getPosition().x, playerSprite.getPosition().y);
+//        printf("Player X-Y position :%f - %f \n", playerSprite.getPosition().x, playerSprite.getPosition().y);
         expectedPosition.x = expectedPosition.x + speed * frameTime.asSeconds();
     }
     else if (type == "left"){
@@ -62,8 +62,10 @@ bool checkIfNextTileIsNotSolid(PlayerSprite playerSprite, TileMap tileMap, float
 }
 
 void GameEngine::Game(){
+
     // Set window size
     sf::Vector2i screenDimensions(800,480);
+
     // Create  SFML windows
     RenderWindow window(VideoMode(screenDimensions.x, screenDimensions.y, 32),
                         "Mario - LittleBigGame - Etna");
@@ -74,20 +76,38 @@ void GameEngine::Game(){
     //On active la synchro verticale
     window.setVerticalSyncEnabled(true);
 
+    //Camera
+    sf::View view(sf::Vector2f(400, 240), sf::Vector2f(screenDimensions.x, screenDimensions.y));
+
+    window.setView(view);
+
+    //music
+    sf::Music music;
+    if (!music.openFromFile("../assets/sound/music.wav"))
+        return this->SetGameStatus(0);
+    music.play();
+
     //font
     sf::Font font;
     if (!font.loadFromFile("../assets/font/Roboto-Bold.ttf"))
     {
-        printf("Ouesh j'arrive pas à la charger ta police de merde !\n");
+        printf("Error to load font !\n");
     }
-    sf::Text text;
-    text.setFont(font); // font is a sf::Font
-    text.setString("Game Over ! Try again :)");
-    text.setCharacterSize(24); // in pixels, not points!
-    text.setPosition(300, 150);
+    sf::Text looseText;
+    looseText.setFont(font); // font is a sf::Font
+    looseText.setString("Game Over ! Try again :)");
+    looseText.setCharacterSize(24); // in pixels, not points!
+    looseText.setPosition(300, 150);
+
+    sf::Text winText;
+    winText.setFont(font); // font is a sf::Font
+    winText.setString("Good Game ! Try again ><");
+    winText.setCharacterSize(24); // in pixels, not points!
+    winText.setPosition(300, 150);
 
     // flag to check if player already loose
     bool alreadyLoose = false;
+    bool alreadyWin = false;
 
     //Instantiate usfull objects
     TileMap tilemap("../assets/tmx/lvl1.tmx");
@@ -154,6 +174,7 @@ void GameEngine::Game(){
     sf::Clock frameClock;
     sf::Clock jumpClock;
     sf::Clock gameoverClock;
+    sf::Clock winClock;
 
     // Set up speed and gravity
     float speed = 150.f;
@@ -187,7 +208,7 @@ void GameEngine::Game(){
                 currentAnimation = &walkingAnimationJump;
                 jumpClock.restart();
 //                movement.y -= speed;
-                movement.y = movement.y - 5000;
+                movement.y = movement.y - 3000;
             }
             noKeyWasPressed = false;
         }
@@ -223,6 +244,8 @@ void GameEngine::Game(){
         }
 
         playerSprite.move(movement * frameTime.asSeconds());
+        if (playerSprite.getPosition().x > 400 && playerSprite.getPosition().x < 1283-100)
+            view.setCenter(playerSprite.getPosition().x, 240);
 
         // if no key was pressed stop the animation
         if (noKeyWasPressed)
@@ -236,6 +259,7 @@ void GameEngine::Game(){
 
         // Clear window
         window.clear();
+        window.setView(view);
 
         // DRAW
         window.draw(tilemap);
@@ -243,13 +267,26 @@ void GameEngine::Game(){
 
         // Drow GamoeOver meesga if player got under y 500
         if (playerSprite.getPosition().y > 500){
+            view.setCenter(400, 240);
             playerSprite.setPosition(sf::Vector2f(10, 10));
             gameoverClock.restart();
             alreadyLoose = true;
         }
         int gameoverClockElapsedInSecond = gameoverClock.getElapsedTime().asMilliseconds()/1000;
         if(gameoverClockElapsedInSecond < 2 && alreadyLoose) {
-            window.draw(text);
+            window.draw(looseText);
+        }
+
+        //Draw congrat to player if player got after x 1000
+        if(playerSprite.getPosition().x > 1480){
+            view.setCenter(400, 240);
+            playerSprite.setPosition(sf::Vector2f(10, 10));
+            winClock.restart();
+            alreadyWin = true;
+        }
+        int winElapsedInSecond = winClock.getElapsedTime().asMilliseconds()/1000;
+        if(winElapsedInSecond < 2 && alreadyWin) {
+            window.draw(winText);
         }
 
         // DISPLAY the window

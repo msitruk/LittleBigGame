@@ -223,86 +223,167 @@ Models/AbstractEntity.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.s
 .PHONY : Models/AbstractEntity.cpp.s
 
-Models/Camera.o: Models/Camera.cpp.o
+Models/NotUseAtThisPoint/Camera.o: Models/NotUseAtThisPoint/Camera.cpp.o
 
-.PHONY : Models/Camera.o
-
-# target to build an object file
-Models/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o
-.PHONY : Models/Camera.cpp.o
-
-Models/Camera.i: Models/Camera.cpp.i
-
-.PHONY : Models/Camera.i
-
-# target to preprocess a source file
-Models/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.i
-.PHONY : Models/Camera.cpp.i
-
-Models/Camera.s: Models/Camera.cpp.s
-
-.PHONY : Models/Camera.s
-
-# target to generate assembly for a file
-Models/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.s
-.PHONY : Models/Camera.cpp.s
-
-Models/Character.o: Models/Character.cpp.o
-
-.PHONY : Models/Character.o
+.PHONY : Models/NotUseAtThisPoint/Camera.o
 
 # target to build an object file
-Models/Character.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o
-.PHONY : Models/Character.cpp.o
+Models/NotUseAtThisPoint/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.o
+.PHONY : Models/NotUseAtThisPoint/Camera.cpp.o
 
-Models/Character.i: Models/Character.cpp.i
+Models/NotUseAtThisPoint/Camera.i: Models/NotUseAtThisPoint/Camera.cpp.i
 
-.PHONY : Models/Character.i
+.PHONY : Models/NotUseAtThisPoint/Camera.i
 
 # target to preprocess a source file
-Models/Character.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Character.cpp.i
-.PHONY : Models/Character.cpp.i
+Models/NotUseAtThisPoint/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.i
+.PHONY : Models/NotUseAtThisPoint/Camera.cpp.i
 
-Models/Character.s: Models/Character.cpp.s
+Models/NotUseAtThisPoint/Camera.s: Models/NotUseAtThisPoint/Camera.cpp.s
 
-.PHONY : Models/Character.s
+.PHONY : Models/NotUseAtThisPoint/Camera.s
 
 # target to generate assembly for a file
-Models/Character.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Character.cpp.s
-.PHONY : Models/Character.cpp.s
+Models/NotUseAtThisPoint/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Camera.cpp.s
+.PHONY : Models/NotUseAtThisPoint/Camera.cpp.s
 
-Models/MonsterFactory.o: Models/MonsterFactory.cpp.o
+Models/NotUseAtThisPoint/Character.o: Models/NotUseAtThisPoint/Character.cpp.o
 
-.PHONY : Models/MonsterFactory.o
+.PHONY : Models/NotUseAtThisPoint/Character.o
 
 # target to build an object file
-Models/MonsterFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o
-.PHONY : Models/MonsterFactory.cpp.o
+Models/NotUseAtThisPoint/Character.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.o
+.PHONY : Models/NotUseAtThisPoint/Character.cpp.o
 
-Models/MonsterFactory.i: Models/MonsterFactory.cpp.i
+Models/NotUseAtThisPoint/Character.i: Models/NotUseAtThisPoint/Character.cpp.i
 
-.PHONY : Models/MonsterFactory.i
+.PHONY : Models/NotUseAtThisPoint/Character.i
 
 # target to preprocess a source file
-Models/MonsterFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.i
-.PHONY : Models/MonsterFactory.cpp.i
+Models/NotUseAtThisPoint/Character.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.i
+.PHONY : Models/NotUseAtThisPoint/Character.cpp.i
 
-Models/MonsterFactory.s: Models/MonsterFactory.cpp.s
+Models/NotUseAtThisPoint/Character.s: Models/NotUseAtThisPoint/Character.cpp.s
 
-.PHONY : Models/MonsterFactory.s
+.PHONY : Models/NotUseAtThisPoint/Character.s
 
 # target to generate assembly for a file
-Models/MonsterFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.s
-.PHONY : Models/MonsterFactory.cpp.s
+Models/NotUseAtThisPoint/Character.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/Character.cpp.s
+.PHONY : Models/NotUseAtThisPoint/Character.cpp.s
+
+Models/NotUseAtThisPoint/MonsterFactory.o: Models/NotUseAtThisPoint/MonsterFactory.cpp.o
+
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.o
+
+# target to build an object file
+Models/NotUseAtThisPoint/MonsterFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.o
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.cpp.o
+
+Models/NotUseAtThisPoint/MonsterFactory.i: Models/NotUseAtThisPoint/MonsterFactory.cpp.i
+
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.i
+
+# target to preprocess a source file
+Models/NotUseAtThisPoint/MonsterFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.i
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.cpp.i
+
+Models/NotUseAtThisPoint/MonsterFactory.s: Models/NotUseAtThisPoint/MonsterFactory.cpp.s
+
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.s
+
+# target to generate assembly for a file
+Models/NotUseAtThisPoint/MonsterFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/MonsterFactory.cpp.s
+.PHONY : Models/NotUseAtThisPoint/MonsterFactory.cpp.s
+
+Models/NotUseAtThisPoint/SprinterMonster.o: Models/NotUseAtThisPoint/SprinterMonster.cpp.o
+
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.o
+
+# target to build an object file
+Models/NotUseAtThisPoint/SprinterMonster.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.o
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.cpp.o
+
+Models/NotUseAtThisPoint/SprinterMonster.i: Models/NotUseAtThisPoint/SprinterMonster.cpp.i
+
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.i
+
+# target to preprocess a source file
+Models/NotUseAtThisPoint/SprinterMonster.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.i
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.cpp.i
+
+Models/NotUseAtThisPoint/SprinterMonster.s: Models/NotUseAtThisPoint/SprinterMonster.cpp.s
+
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.s
+
+# target to generate assembly for a file
+Models/NotUseAtThisPoint/SprinterMonster.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/SprinterMonster.cpp.s
+.PHONY : Models/NotUseAtThisPoint/SprinterMonster.cpp.s
+
+Models/NotUseAtThisPoint/TimeManager.o: Models/NotUseAtThisPoint/TimeManager.cpp.o
+
+.PHONY : Models/NotUseAtThisPoint/TimeManager.o
+
+# target to build an object file
+Models/NotUseAtThisPoint/TimeManager.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.o
+.PHONY : Models/NotUseAtThisPoint/TimeManager.cpp.o
+
+Models/NotUseAtThisPoint/TimeManager.i: Models/NotUseAtThisPoint/TimeManager.cpp.i
+
+.PHONY : Models/NotUseAtThisPoint/TimeManager.i
+
+# target to preprocess a source file
+Models/NotUseAtThisPoint/TimeManager.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.i
+.PHONY : Models/NotUseAtThisPoint/TimeManager.cpp.i
+
+Models/NotUseAtThisPoint/TimeManager.s: Models/NotUseAtThisPoint/TimeManager.cpp.s
+
+.PHONY : Models/NotUseAtThisPoint/TimeManager.s
+
+# target to generate assembly for a file
+Models/NotUseAtThisPoint/TimeManager.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/TimeManager.cpp.s
+.PHONY : Models/NotUseAtThisPoint/TimeManager.cpp.s
+
+Models/NotUseAtThisPoint/ZombieMonster.o: Models/NotUseAtThisPoint/ZombieMonster.cpp.o
+
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.o
+
+# target to build an object file
+Models/NotUseAtThisPoint/ZombieMonster.cpp.o:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.o
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.cpp.o
+
+Models/NotUseAtThisPoint/ZombieMonster.i: Models/NotUseAtThisPoint/ZombieMonster.cpp.i
+
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.i
+
+# target to preprocess a source file
+Models/NotUseAtThisPoint/ZombieMonster.cpp.i:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.i
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.cpp.i
+
+Models/NotUseAtThisPoint/ZombieMonster.s: Models/NotUseAtThisPoint/ZombieMonster.cpp.s
+
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.s
+
+# target to generate assembly for a file
+Models/NotUseAtThisPoint/ZombieMonster.cpp.s:
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/NotUseAtThisPoint/ZombieMonster.cpp.s
+.PHONY : Models/NotUseAtThisPoint/ZombieMonster.cpp.s
 
 Models/PlayerAnimation.o: Models/PlayerAnimation.cpp.o
 
@@ -358,33 +439,6 @@ Models/PlayerSprite.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.s
 .PHONY : Models/PlayerSprite.cpp.s
 
-Models/SprinterMonster.o: Models/SprinterMonster.cpp.o
-
-.PHONY : Models/SprinterMonster.o
-
-# target to build an object file
-Models/SprinterMonster.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o
-.PHONY : Models/SprinterMonster.cpp.o
-
-Models/SprinterMonster.i: Models/SprinterMonster.cpp.i
-
-.PHONY : Models/SprinterMonster.i
-
-# target to preprocess a source file
-Models/SprinterMonster.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.i
-.PHONY : Models/SprinterMonster.cpp.i
-
-Models/SprinterMonster.s: Models/SprinterMonster.cpp.s
-
-.PHONY : Models/SprinterMonster.s
-
-# target to generate assembly for a file
-Models/SprinterMonster.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.s
-.PHONY : Models/SprinterMonster.cpp.s
-
 Models/TileMap.o: Models/TileMap.cpp.o
 
 .PHONY : Models/TileMap.o
@@ -411,60 +465,6 @@ Models/TileMap.s: Models/TileMap.cpp.s
 Models/TileMap.cpp.s:
 	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.s
 .PHONY : Models/TileMap.cpp.s
-
-Models/TimeManager.o: Models/TimeManager.cpp.o
-
-.PHONY : Models/TimeManager.o
-
-# target to build an object file
-Models/TimeManager.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o
-.PHONY : Models/TimeManager.cpp.o
-
-Models/TimeManager.i: Models/TimeManager.cpp.i
-
-.PHONY : Models/TimeManager.i
-
-# target to preprocess a source file
-Models/TimeManager.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.i
-.PHONY : Models/TimeManager.cpp.i
-
-Models/TimeManager.s: Models/TimeManager.cpp.s
-
-.PHONY : Models/TimeManager.s
-
-# target to generate assembly for a file
-Models/TimeManager.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.s
-.PHONY : Models/TimeManager.cpp.s
-
-Models/ZombieMonster.o: Models/ZombieMonster.cpp.o
-
-.PHONY : Models/ZombieMonster.o
-
-# target to build an object file
-Models/ZombieMonster.cpp.o:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o
-.PHONY : Models/ZombieMonster.cpp.o
-
-Models/ZombieMonster.i: Models/ZombieMonster.cpp.i
-
-.PHONY : Models/ZombieMonster.i
-
-# target to preprocess a source file
-Models/ZombieMonster.cpp.i:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.i
-.PHONY : Models/ZombieMonster.cpp.i
-
-Models/ZombieMonster.s: Models/ZombieMonster.cpp.s
-
-.PHONY : Models/ZombieMonster.s
-
-# target to generate assembly for a file
-Models/ZombieMonster.cpp.s:
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.s
-.PHONY : Models/ZombieMonster.cpp.s
 
 main.o: main.cpp.o
 
@@ -512,33 +512,33 @@ help:
 	@echo "... Models/AbstractEntity.o"
 	@echo "... Models/AbstractEntity.i"
 	@echo "... Models/AbstractEntity.s"
-	@echo "... Models/Camera.o"
-	@echo "... Models/Camera.i"
-	@echo "... Models/Camera.s"
-	@echo "... Models/Character.o"
-	@echo "... Models/Character.i"
-	@echo "... Models/Character.s"
-	@echo "... Models/MonsterFactory.o"
-	@echo "... Models/MonsterFactory.i"
-	@echo "... Models/MonsterFactory.s"
+	@echo "... Models/NotUseAtThisPoint/Camera.o"
+	@echo "... Models/NotUseAtThisPoint/Camera.i"
+	@echo "... Models/NotUseAtThisPoint/Camera.s"
+	@echo "... Models/NotUseAtThisPoint/Character.o"
+	@echo "... Models/NotUseAtThisPoint/Character.i"
+	@echo "... Models/NotUseAtThisPoint/Character.s"
+	@echo "... Models/NotUseAtThisPoint/MonsterFactory.o"
+	@echo "... Models/NotUseAtThisPoint/MonsterFactory.i"
+	@echo "... Models/NotUseAtThisPoint/MonsterFactory.s"
+	@echo "... Models/NotUseAtThisPoint/SprinterMonster.o"
+	@echo "... Models/NotUseAtThisPoint/SprinterMonster.i"
+	@echo "... Models/NotUseAtThisPoint/SprinterMonster.s"
+	@echo "... Models/NotUseAtThisPoint/TimeManager.o"
+	@echo "... Models/NotUseAtThisPoint/TimeManager.i"
+	@echo "... Models/NotUseAtThisPoint/TimeManager.s"
+	@echo "... Models/NotUseAtThisPoint/ZombieMonster.o"
+	@echo "... Models/NotUseAtThisPoint/ZombieMonster.i"
+	@echo "... Models/NotUseAtThisPoint/ZombieMonster.s"
 	@echo "... Models/PlayerAnimation.o"
 	@echo "... Models/PlayerAnimation.i"
 	@echo "... Models/PlayerAnimation.s"
 	@echo "... Models/PlayerSprite.o"
 	@echo "... Models/PlayerSprite.i"
 	@echo "... Models/PlayerSprite.s"
-	@echo "... Models/SprinterMonster.o"
-	@echo "... Models/SprinterMonster.i"
-	@echo "... Models/SprinterMonster.s"
 	@echo "... Models/TileMap.o"
 	@echo "... Models/TileMap.i"
 	@echo "... Models/TileMap.s"
-	@echo "... Models/TimeManager.o"
-	@echo "... Models/TimeManager.i"
-	@echo "... Models/TimeManager.s"
-	@echo "... Models/ZombieMonster.o"
-	@echo "... Models/ZombieMonster.i"
-	@echo "... Models/ZombieMonster.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
