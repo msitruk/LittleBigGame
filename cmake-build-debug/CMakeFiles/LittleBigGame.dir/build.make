@@ -81,300 +81,300 @@ CMakeFiles/LittleBigGame.dir/main.cpp.o.provides: CMakeFiles/LittleBigGame.dir/m
 CMakeFiles/LittleBigGame.dir/main.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/main.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/input.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/input.cpp.o: ../input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LittleBigGame.dir/input.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/input.cpp.o -c /home/maxime/GitHub/LittleBigGame/input.cpp
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o: ../Models/AbstractEntity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.cpp
 
-CMakeFiles/LittleBigGame.dir/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/input.cpp > CMakeFiles/LittleBigGame.dir/input.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.cpp > CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.i
 
-CMakeFiles/LittleBigGame.dir/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/input.cpp -o CMakeFiles/LittleBigGame.dir/input.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.cpp -o CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.s
 
-CMakeFiles/LittleBigGame.dir/input.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/input.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/input.cpp.o.provides: CMakeFiles/LittleBigGame.dir/input.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/input.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/input.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/input.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/input.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o: ../Objects/AbstractEntity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o: ../Models/Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/Character.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp > CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/Character.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/Character.cpp > CMakeFiles/LittleBigGame.dir/Models/Character.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp -o CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/Character.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/Character.cpp -o CMakeFiles/LittleBigGame.dir/Models/Character.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o: ../Objects/Character.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/Character.cpp
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o: ../Models/TimeManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/Character.cpp > CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp > CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/Character.cpp -o CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp -o CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o: ../Objects/TimeManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o: ../Models/MonsterFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp > CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp > CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp -o CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp -o CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o: ../Objects/MonsterFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o: ../Models/ZombieMonster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp > CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp > CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp -o CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp -o CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o: ../Objects/ZombieMonster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.cpp
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o: ../Models/SprinterMonster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.cpp > CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp > CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.cpp -o CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp -o CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o: ../Objects/SprinterMonster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o: ../Models/TileMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp > CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp > CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp -o CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp -o CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o: ../Objects/TileMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o: ../Models/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/Camera.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp > CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/Camera.cpp > CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp -o CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/Camera.cpp -o CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o: ../Objects/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o: ../Models/PlayerSprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp > CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.cpp > CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp -o CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.cpp -o CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o: ../Objects/PlayerSprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o: ../Models/PlayerAnimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o -c /home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp > CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.i
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp > CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp -o CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.s
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp -o CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o
+CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o
 
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o: ../Objects/PlayerAnimation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o -c /home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: CMakeFiles/LittleBigGame.dir/flags.make
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o: ../Controller/GameEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxime/GitHub/LittleBigGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o -c /home/maxime/GitHub/LittleBigGame/Controller/GameEngine.cpp
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp > CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.i
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxime/GitHub/LittleBigGame/Controller/GameEngine.cpp > CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.i
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp -o CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.s
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxime/GitHub/LittleBigGame/Controller/GameEngine.cpp -o CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.s
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.requires:
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.requires:
 
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.requires
+.PHONY : CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.requires
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.requires
-	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.provides.build
-.PHONY : CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.provides
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.provides: CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/LittleBigGame.dir/build.make CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.provides.build
+.PHONY : CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.provides
 
-CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o
+CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.provides.build: CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o
 
 
 # Object files for target LittleBigGame
 LittleBigGame_OBJECTS = \
 "CMakeFiles/LittleBigGame.dir/main.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/input.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o" \
-"CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o"
+"CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o" \
+"CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o"
 
 # External object files for target LittleBigGame
 LittleBigGame_EXTERNAL_OBJECTS =
 
 LittleBigGame: CMakeFiles/LittleBigGame.dir/main.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/input.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o
-LittleBigGame: CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o
+LittleBigGame: CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o
 LittleBigGame: CMakeFiles/LittleBigGame.dir/build.make
 LittleBigGame: /usr/local/lib/libsfml-system.so
 LittleBigGame: /usr/local/lib/libsfml-window.so
@@ -392,17 +392,17 @@ CMakeFiles/LittleBigGame.dir/build: LittleBigGame
 .PHONY : CMakeFiles/LittleBigGame.dir/build
 
 CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/main.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/input.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/AbstractEntity.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/Character.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/TimeManager.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/MonsterFactory.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/ZombieMonster.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/SprinterMonster.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/TileMap.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/Camera.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/PlayerSprite.cpp.o.requires
-CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Objects/PlayerAnimation.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/AbstractEntity.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/Character.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/TimeManager.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/MonsterFactory.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/ZombieMonster.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/SprinterMonster.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/TileMap.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/Camera.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/PlayerSprite.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Models/PlayerAnimation.cpp.o.requires
+CMakeFiles/LittleBigGame.dir/requires: CMakeFiles/LittleBigGame.dir/Controller/GameEngine.cpp.o.requires
 
 .PHONY : CMakeFiles/LittleBigGame.dir/requires
 

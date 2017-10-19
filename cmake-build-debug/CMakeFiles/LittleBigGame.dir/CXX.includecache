@@ -6,61 +6,81 @@
 
 #IncludeRegexTransform: 
 
-/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.cpp
+/home/maxime/GitHub/LittleBigGame/Controller/GameEngine.cpp
+GameEngine.hh
+/home/maxime/GitHub/LittleBigGame/Controller/GameEngine.hh
+
+/home/maxime/GitHub/LittleBigGame/Controller/GameEngine.hh
+cstdlib
+-
+iostream
+-
+chrono
+-
+thread
+-
+SFML/Graphics.hpp
+-
+../Models/TileMap.hh
+/home/maxime/GitHub/LittleBigGame/Models/TileMap.hh
+../Models/PlayerSprite.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.hh
+
+/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.cpp
 AbstractEntity.hh
-/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh
+/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh
+/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/Camera.cpp
+/home/maxime/GitHub/LittleBigGame/Models/Camera.cpp
 Camera.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
+/home/maxime/GitHub/LittleBigGame/Models/Camera.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
+/home/maxime/GitHub/LittleBigGame/Models/Camera.hh
 SFML/Graphics/View.hpp
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/Character.cpp
+/home/maxime/GitHub/LittleBigGame/Models/Character.cpp
 Character.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+/home/maxime/GitHub/LittleBigGame/Models/Character.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+/home/maxime/GitHub/LittleBigGame/Models/Character.hh
 AbstractEntity.hh
-/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh
+/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.hh
 IObservable.hh
-/home/maxime/GitHub/LittleBigGame/Objects/IObservable.hh
+/home/maxime/GitHub/LittleBigGame/Models/IObservable.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/IObservable.hh
+/home/maxime/GitHub/LittleBigGame/Models/IObservable.hh
 IObserver.hh
-/home/maxime/GitHub/LittleBigGame/Objects/IObserver.hh
+/home/maxime/GitHub/LittleBigGame/Models/IObserver.hh
 list
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/IObserver.hh
+/home/maxime/GitHub/LittleBigGame/Models/IObserver.hh
 IObservable.hh
-/home/maxime/GitHub/LittleBigGame/Objects/IObservable.hh
+/home/maxime/GitHub/LittleBigGame/Models/IObservable.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.cpp
+/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.cpp
 MonsterFactory.hh
-/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh
+/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.hh
 ZombieMonster.hh
-/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.hh
 SprinterMonster.hh
-/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.hh
 iostream
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/MonsterFactory.hh
+/home/maxime/GitHub/LittleBigGame/Models/MonsterFactory.hh
 iostream
 -
 Character.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+/home/maxime/GitHub/LittleBigGame/Models/Character.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.cpp
+/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.cpp
 PlayerAnimation.hh
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.hh
 vector
 -
 SFML/Graphics/Rect.hpp
@@ -68,11 +88,11 @@ SFML/Graphics/Rect.hpp
 SFML/Graphics/Texture.hpp
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.cpp
+/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.cpp
 PlayerSprite.hh
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerSprite.hh
 SFML/Graphics/RenderTarget.hpp
 -
 SFML/System/Time.hpp
@@ -84,31 +104,31 @@ SFML/Graphics/Transformable.hpp
 SFML/System/Vector2.hpp
 -
 PlayerAnimation.hh
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerAnimation.hh
+/home/maxime/GitHub/LittleBigGame/Models/PlayerAnimation.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.cpp
+/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.cpp
 SprinterMonster.hh
-/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.hh
 iostream
 -
 TimeManager.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/SprinterMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/SprinterMonster.hh
 Character.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
+/home/maxime/GitHub/LittleBigGame/Models/Character.hh
 TimeManager.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/TileMap.cpp
+/home/maxime/GitHub/LittleBigGame/Models/TileMap.cpp
 TileMap.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh
+/home/maxime/GitHub/LittleBigGame/Models/TileMap.hh
 algorithm
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh
+/home/maxime/GitHub/LittleBigGame/Models/TileMap.hh
 AbstractEntity.hh
-/home/maxime/GitHub/LittleBigGame/Objects/AbstractEntity.hh
+/home/maxime/GitHub/LittleBigGame/Models/AbstractEntity.hh
 cstdlib
 -
 iostream
@@ -116,65 +136,41 @@ iostream
 SFML/Graphics.hpp
 -
 tmxparser/Tmx.h
-/home/maxime/GitHub/LittleBigGame/Objects/tmxparser/Tmx.h
+/home/maxime/GitHub/LittleBigGame/Models/tmxparser/Tmx.h
 vector
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.cpp
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.cpp
 iostream
 -
 chrono
 -
 TimeManager.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh
 chrono
 -
 
-/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.cpp
+/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.cpp
 ZombieMonster.hh
-/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.hh
 iostream
 -
 TimeManager.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TimeManager.hh
+/home/maxime/GitHub/LittleBigGame/Models/TimeManager.hh
 
-/home/maxime/GitHub/LittleBigGame/Objects/ZombieMonster.hh
+/home/maxime/GitHub/LittleBigGame/Models/ZombieMonster.hh
 Character.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Character.hh
-
-/home/maxime/GitHub/LittleBigGame/input.cpp
-input.h
-/home/maxime/GitHub/LittleBigGame/input.h
-
-/home/maxime/GitHub/LittleBigGame/input.h
-SFML/Graphics.hpp
--
-Objects/Camera.hh
-/home/maxime/GitHub/LittleBigGame/Objects/Camera.hh
+/home/maxime/GitHub/LittleBigGame/Models/Character.hh
 
 /home/maxime/GitHub/LittleBigGame/main.cpp
 main.h
 /home/maxime/GitHub/LittleBigGame/main.h
 
 /home/maxime/GitHub/LittleBigGame/main.h
-cstdlib
--
-iostream
--
-chrono
--
-thread
--
-SFML/Graphics.hpp
--
-input.h
-/home/maxime/GitHub/LittleBigGame/input.h
-Objects/TileMap.hh
-/home/maxime/GitHub/LittleBigGame/Objects/TileMap.hh
-Objects/PlayerSprite.hh
-/home/maxime/GitHub/LittleBigGame/Objects/PlayerSprite.hh
+Controller/GameEngine.hh
+/home/maxime/GitHub/LittleBigGame/Controller/GameEngine.hh
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

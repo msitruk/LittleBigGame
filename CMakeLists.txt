@@ -5,21 +5,23 @@ set(EXECUTABLE_NAME "LittleBigGame")
 set(CMAKE_CXX_STANDARD 11)
 
 
-SET(Objects
-        "Objects/AbstractEntity.cpp" "Objects/AbstractEntity.hh"
-        "Objects/Character.cpp" "Objects/Character.hh"
-        "Objects/TimeManager.cpp" "Objects/TimeManager.hh"
-        "Objects/IObserver.hh"
-        "Objects/IObservable.hh"
-        "Objects/MonsterFactory.cpp" "Objects/MonsterFactory.hh"
-        "Objects/ZombieMonster.cpp" "Objects/ZombieMonster.hh"
-        "Objects/SprinterMonster.cpp" "Objects/SprinterMonster.hh"
-        "Objects/TileMap.cpp" "Objects/TileMap.hh"
-        "Objects/Camera.cpp" "Objects/Camera.hh"
-        "Objects/PlayerSprite.cpp" "Objects/PlayerSprite.hh" Objects/PlayerAnimation.cpp Objects/PlayerAnimation.hh)
+SET(Models
+        "Models/AbstractEntity.cpp" "Models/AbstractEntity.hh"
+        "Models/Character.cpp" "Models/Character.hh"
+        "Models/TimeManager.cpp" "Models/TimeManager.hh"
+        "Models/IObserver.hh"
+        "Models/IObservable.hh"
+        "Models/MonsterFactory.cpp" "Models/MonsterFactory.hh"
+        "Models/ZombieMonster.cpp" "Models/ZombieMonster.hh"
+        "Models/SprinterMonster.cpp" "Models/SprinterMonster.hh"
+        "Models/TileMap.cpp" "Models/TileMap.hh"
+        "Models/Camera.cpp" "Models/Camera.hh"
+        "Models/PlayerSprite.cpp" "Models/PlayerSprite.hh" Models/PlayerAnimation.cpp Models/PlayerAnimation.hh)
+
+SET(Conntrollers Controller/GameEngine.cpp Controller/GameEngine.hh)
 
 
-set(SOURCE_FILES main.cpp main.h input.cpp input.h /usr/local/include/tmxparser/Tmx.h ${Objects})
+set(SOURCE_FILES main.cpp main.h /usr/local/include/tmxparser/Tmx.h ${Models} ${Conntrollers})
 add_executable(LittleBigGame ${SOURCE_FILES})
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/lib" ${CMAKE_MODULE_PATH})
 
